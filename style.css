@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+h1{
+    font-family: 'Scheherazade New', serif;
+    text-align: center;
+}
+h2{
+    font-family: 'Bonheur Royale', 'cursive';
+    font-size: 100px;
+    text-align: center;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#balloon2{
+    margin-left: 800px;
+    animation: floating 5s infinite ease-in;
+}
+#balloon1{
+    animation: floating 5s infinite ease-in;
+}
+@keyframes floating {
+    0%{
+    transform: translateY(0px);
+    }
+    50%{
+    transform: translateY(30px);
+    }
+    
